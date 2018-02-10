@@ -104,7 +104,8 @@ function! s:plug.define_prefix(lhs) abort
         execute 'silent! xmap <unique>' a:lhs rhs
     endif
 endfunction
-call s:plug.define_prefix('gc')
+" NOTE: change prefix 'gc' to 'c'.
+call s:plug.define_prefix('c')
 
 function! s:plug.map(action, method, ...) abort
     let modes = get(a:000, 0, 'nx')
