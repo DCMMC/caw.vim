@@ -5,7 +5,7 @@ set cpo&vim
 
 let b:caw_oneline_comment = '#'
 let b:caw_wrap_oneline_comment = ['#', '#']
-let b:caw_wrap_multiline_comment = {'right': '#', 'bottom': '#', 'left': '#', 'top': '#'}
+let b:caw_wrap_multiline_comment = {'right': '', 'bottom': '#', 'left': '#', 'top': '#'}
 
 if !exists("b:did_caw_ftplugin")
     if exists('b:undo_ftplugin')
